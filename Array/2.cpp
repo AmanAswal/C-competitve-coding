@@ -1,3 +1,7 @@
+QUESTION : 
+Take integer inputs from user and store them in an array. Again ask user to give a number. 
+Now, tell user whether that number is present in array or not.
+
 #include<iostream>
 
 using namespace std;
