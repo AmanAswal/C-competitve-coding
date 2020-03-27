@@ -1,1 +1,1 @@
-# C-competitve-coding
+# C++ competitve-coding
