@@ -1,3 +1,10 @@
+Question: Take integer inputs from user and print the following:
+number of positive numbers
+number of negative numbers
+number of odd numbers
+number of even numbers
+number of 0.
+
 #include<iostream>
 
 using namespace std;
@@ -19,19 +26,19 @@ int main()
 
     for(int i=0; i<size_of_array;i++)
     {
-        if( arr[i] == 0 ){
+        if(arr[i] == 0){
             zero_count = zero_count + 1;
         }
-        else if( arr[i] > 0 ){
+        else if(arr[i] > 0){
             positive_num_count = positive_num_count + 1;
         }
-        else if( arr[i] < 0 ){
+        else if(arr[i] < 0){
             negative_num_count = negative_num_count + 1;
         }
-        if( arr[i] % 2 != 0  && arr[i] > 0){
+        if(arr[i] % 2 != 0  && arr[i] > 0){
             odd_num_count = odd_num_count + 1;
         }
-        if( arr[i] % 2 == 0 && arr[i] >= 0){
+        if(arr[i] % 2 == 0 && arr[i] >= 0){
             even_num_count = even_num_count + 1;
         }
     }
