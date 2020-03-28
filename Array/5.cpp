@@ -1,3 +1,6 @@
+Question: Write a program to find the sum and product of all elements of an array.
+-----------------------------------------------------------------------------
+
 #include<iostream>
 
 using namespace std;
