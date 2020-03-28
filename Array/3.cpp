@@ -4,6 +4,7 @@ number of negative numbers
 number of odd numbers
 number of even numbers
 number of 0.
+------------------------------------------------------------------    
 
 #include<iostream>
 
@@ -19,27 +20,23 @@ int main()
     int arr[size_of_array];
     cout<<"Enter the numbers: "<<endl;
 
-    for(int i=0; i<size_of_array; i++)
-    {
-        cin>> arr[i];
-    }
-
     for(int i=0; i<size_of_array;i++)
     {
-        if(arr[i] == 0){
-            zero_count = zero_count + 1;
+        cin>> arr[i];
+        if( arr[i] == 0 ){
+            zero_count ++;
         }
-        else if(arr[i] > 0){
-            positive_num_count = positive_num_count + 1;
+        else if( arr[i] > 0 ){
+            positive_num_count ++;
         }
-        else if(arr[i] < 0){
-            negative_num_count = negative_num_count + 1;
+        else if( arr[i] < 0 ){
+            negative_num_count ++;
         }
-        if(arr[i] % 2 != 0  && arr[i] > 0){
-            odd_num_count = odd_num_count + 1;
+        if( arr[i] % 2 != 0  && arr[i] > 0){
+            odd_num_count ++;
         }
-        if(arr[i] % 2 == 0 && arr[i] >= 0){
-            even_num_count = even_num_count + 1;
+        if( arr[i] % 2 == 0 && arr[i] >= 0){
+            even_num_count ++;
         }
     }
     cout<<"No. of Zeros: "<<zero_count<<endl;
@@ -50,4 +47,5 @@ int main()
 
     return 0;
 }
+    
     
