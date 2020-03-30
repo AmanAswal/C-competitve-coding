@@ -1,3 +1,5 @@
+// Print transpose of a 2D matrix.
+
 #include<iostream>
 
 using namespace std;
