@@ -1,6 +1,6 @@
-QUESTION: Take integer inputs from user and store them in an array. 
-          Now, copy all the elements in another array.
-          Print the new array in reverse order.
+// QUESTION: Take integer inputs from user and store them in an array. 
+//           Now, copy all the elements in another array.
+//           Print the new array in reverse order.
 -----------------------------------------------------------------------    
     
 #include<iostream>
