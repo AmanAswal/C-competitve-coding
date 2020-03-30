@@ -1,9 +1,9 @@
-Question: Take integer inputs from user and print the following:
-number of positive numbers
-number of negative numbers
-number of odd numbers
-number of even numbers
-number of 0.
+// Question: Take integer inputs from user and print the following:
+// number of positive numbers
+// number of negative numbers
+// number of odd numbers
+// number of even numbers
+// number of 0.
 ------------------------------------------------------------------    
 
 #include<iostream>
