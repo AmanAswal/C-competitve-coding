@@ -1,3 +1,5 @@
+// Flip the matrix by 90 degree.
+
 #include<iostream>
 
 using namespace std;
