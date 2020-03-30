@@ -1,3 +1,5 @@
+// Print the transpose of a matrix.
+
 #include<iostream>
 
 using namespace std;
@@ -40,18 +42,6 @@ int main()
         for(int j=0;j<num_of_cols;j++)
         {
             cout<<a[j][i]<<" ";
-        }
-        cout<<endl;
-    }
-    cout<<endl;
-
-    cout<<"The 90 degree fipped matrix is: "<<endl;
-
-    for(int j=0; j<num_of_cols;j++)
-    {
-        for(int i=num_of_rows-1; i>= 0;i--)
-        {
-            cout<<a[i][j]<<" ";
         }
         cout<<endl;
     }
