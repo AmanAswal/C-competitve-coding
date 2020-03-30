@@ -1,4 +1,4 @@
-Question: Write a program to find the sum and product of all elements of an array.
+// Question: Write a program to find the sum and product of all elements of an array.
 -----------------------------------------------------------------------------
 
 #include<iostream>
