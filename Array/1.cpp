@@ -1,4 +1,4 @@
-QUESTION: Take integer inputs from user and store them in an array and print them on screen.
+//QUESTION: Take integer inputs from user and store them in an array and print them on screen.
 
 #include<iostream>
 
