@@ -1,3 +1,5 @@
+// Print out the Max differnce and Min differnce between a pair of elements of an array.
+
 #include<iostream>
 
 using namespace std;
