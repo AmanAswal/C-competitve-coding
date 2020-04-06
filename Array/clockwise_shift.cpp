@@ -25,7 +25,7 @@ int main()
 
     arr[size_of_array - 1] = temp;
 
-    cout<<"\nAnti-Clockwise shift array is: ";
+    cout<<"\nClockwise shift array is: ";
 
     for ( int i=0; i<size_of_array; i++)
     {
